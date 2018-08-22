@@ -358,7 +358,7 @@ footer
 	border-radius 0
 	position fixed
 	width 100%
-	background-color #FFFFFF
+	background-color #000000
 	z-index 10
 	&.navbarcolor
 		box-shadow 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
@@ -366,9 +366,11 @@ footer
 		text-align center
 		&>li
 			&>a
-				color #000000
+				color #FFFFFF
 				font-size 18px
 				background-color transparent !important
+				&:hover
+					color #FFFFFF
 	.navbar-brand
 		padding 0
 		font-size 26px
@@ -383,7 +385,7 @@ footer
 			color #FFFFFF
 		img
 			transitionMaxWidth()
-			max-width 200px
+			max-width 125px
 .nav-tabs
 	border none
 	&>li
