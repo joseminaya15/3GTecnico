@@ -45,7 +45,7 @@ $('#home .owl-carousel').owlCarousel({
 	autoplayTimeout: 5000,
 	navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
 });
-$('.js-espacio--principal .owl-carousel').owlCarousel({
+$('.js-marcas .owl-carousel').owlCarousel({
 	lazyLoad: true,
 	responsive: {
 		0: {
@@ -56,14 +56,20 @@ $('.js-espacio--principal .owl-carousel').owlCarousel({
 		},
 		768: {
 			items: 3
+		},
+		1000:{
+			items: 4
+		},
+		1200: {
+			items: 5
 		}
 	},
 	navigation: false,
-	nav: true,
-	loop: false,
-	dots: false,
+	nav: false,
+	loop: true,
+	dots: true,
 	autoplay: true,
-	autoplayTimeout: 5000,
+	autoplayTimeout: 1000,
 	navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
 });
 $('.js-carousel .owl-carousel').owlCarousel({

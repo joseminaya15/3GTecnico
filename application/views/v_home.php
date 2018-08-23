@@ -199,6 +199,50 @@
                     </div>
                 </div>
             </div>
+            <div class="js-marcas">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/samsung.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/mabe.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/bosch.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/lg.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/maytag.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/klimatic.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/frigidaire.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="js-marcas__item">
+                            <img src="<?php echo RUTA_IMG?>logo/generalelectric.png" alt="3gtecnico">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="contactanos" class="js-section">
