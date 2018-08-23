@@ -286,6 +286,11 @@ strong
 						z-index 0
 						height 100vh
 						opacity .4
+.owl-theme
+	.owl-nav
+		.owl-prev
+		.owl-next
+			background-color $default
 .js-button
 	background-color $default !important
 	text-decoration none !important
@@ -477,22 +482,43 @@ footer
 		margin 20px
 		padding 12px
 		box-shadow 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+		cursor pointer
 		.mdl-card__title
 			relative()
 			height 200px
-			background-size cover !important
-			&.principal1
-				background url(../img/espacios/lavadoras.png) no-repeat center center
-			&.principal2
-				background url(../img/espacios/secadoras.jpg) no-repeat center center
-			&.principal3
-				background url(../img/espacios/cocinas.jpg) no-repeat center center
-			&.principal4
-				background url(../img/espacios/refrigeradoras.jpg) no-repeat center center
-			&.principal5
-				background url(../img/espacios/aire.jpg) no-repeat center center
-			&.principal6
-				background url(../img/espacios/electricidad.jpg) no-repeat center center
+			overflow hidden
+			.js-principal
+				absolute()
+				transitionTransform()
+				background-size cover !important
+				height 200px
+				&.principal1
+					background url(../img/espacios/lavadoras.png) no-repeat center center
+				&.principal2
+					background url(../img/espacios/secadoras.jpg) no-repeat center center
+				&.principal3
+					background url(../img/espacios/cocinas.jpg) no-repeat center center
+				&.principal4
+					background url(../img/espacios/refrigeradoras.jpg) no-repeat center center
+				&.principal5
+					background url(../img/espacios/aire.jpg) no-repeat center center
+				&.principal6
+					background url(../img/espacios/electricidad.jpg) no-repeat center center
+		.mdl-card__supporting-text
+			padding 0
+			margin-top 10px
+			h2
+				transitionAll()
+				padding 8px
+				font-family $bold
+		&:hover
+			.mdl-card__title
+				.js-principal
+					transform scale(1.1)
+			.mdl-card__supporting-text
+				h2
+					background-color #007DC5
+					color #FFFFFF
 /*MATERIAL DESIGN*/
 .mdl-card
 .mdl-card__supporting-text

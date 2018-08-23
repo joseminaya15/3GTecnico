@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="HPE LAC Value & Growth Channels Warriors - Agosto 7-9, 2018">
-    <meta name="keywords"               content="HPE LAC Value & Growth Channels Warriors">
+    <meta name="description"            content="3GTécnico es una empresa autorizada para trabajar las marcas en linea blanca, profesionales especializados garantizan que el electrodoméstico reciba a tiempo un servicio eficiente y profesional. Realizamos mantenimientos preventivos, reparación y/o cambios con repuestos 100% originales en marcas europeas, americanas y nacionales de lavadoras, lavasecas, refrigeradoras, centro de lavado, secadoras a gas y electricas, cocinas, microondas, lavavajillas, campana extractoras del hogar e industriales.">
+    <meta name="keywords"               content="Servicio Técnico, Reparación Línea Blanca, Asistencia técnica, Reparación de cocinas, Reparación de lavadoras, Reparación de secadoras, Reparación de refrigeradoras, Mantenimiento de cocinas, Mantenimiento de lavadoras, Mantenimiento de secadoras, Mantenimiento de refrigeradoras, Servicio técnico bosh, Servicio técnico indurama, Servicio técnico samsung, Reparación de aire acondicionado, Servicio eléctrico, Servicio técnico electrodomésticos">
     <meta name="robots"                 content="Index,Follow">
-    <meta name="date"                   content="July 23, 2018"/>
+    <meta name="date"                   content="August 22, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>3GT&eacute;cnico</title>
+	<title>3GT&eacute;cnico | Reparaci&oacute;n y Mantenimiento de Linea Blanca</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
@@ -71,7 +71,7 @@
         <div class="js-container">
             <h2 class="js-title">Nosotros</h2>
             <div class="js-information">
-                <div class="js-flex--start">
+                <div class="js-flex--start scrollflow -slide-right -opacity">
                     <div class="js-information__left">
                         <div class="js-information__left--imagen"></div>
                     </div>
@@ -81,7 +81,7 @@
                         <p>Realizamos mantenimientos preventivos, reparaci&oacute;n y/o cambios con repuestos 100% originales en marcas europeas, norteamericanas y nacionales.</p>
                     </div>
                 </div>
-                <div class="js-flex--start second">
+                <div class="js-flex--start second scrollflow -slide-left -opacity">
                     <div class="js-information__left">
                         <div class="js-information__left--imagen one"></div>
                     </div>
@@ -98,38 +98,50 @@
         <div class="js-container">
             <h2 class="js-title">Nuestros Servicios</h2>
             <div class="js-servicios">
-                <div class="mdl-card">
-                    <div class="mdl-card__title principal1"></div>
+                <div id="lavadora" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
+                    <div class="mdl-card__title">
+                        <div class="js-principal principal1"></div>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Lavadoras</h2>
                     </div>
                 </div>
-                <div class="mdl-card">
-                    <div class="mdl-card__title principal2"></div>
+                <div id="secadora" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
+                    <div class="mdl-card__title">
+                        <div class="js-principal principal2"></div>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Secadoras</h2>
                     </div>
                 </div>
-                <div class="mdl-card">
-                    <div class="mdl-card__title principal3"></div>
+                <div id="cocina" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
+                    <div class="mdl-card__title">
+                        <div class="js-principal principal3"></div>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Cocinas</h2>
                     </div>
                 </div>
-                <div class="mdl-card">
-                    <div class="mdl-card__title principal4"></div>
+                <div id="refrigeradora" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
+                    <div class="mdl-card__title ">
+                        <div class="js-principal principal4"></div>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Refrigeradoras</h2>
                     </div>
                 </div>
-                <div class="mdl-card">
-                    <div class="mdl-card__title principal5"></div>
+                <div id="aire" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
+                    <div class="mdl-card__title">
+                        <div class="js-principal principal5"></div>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Servicio de Aire Acondicionado</h2>
                     </div>
                 </div>
-                <div class="mdl-card">
-                    <div class="mdl-card__title principal6"></div>
+                <div id="electrico" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
+                    <div class="mdl-card__title">
+                        <div class="js-principal principal6"></div>
+                    </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Servicios El&eacute;ctricos</h2>
                     </div>
@@ -281,6 +293,27 @@
             <p>&copy;Copyright 2018 3GT&eacute;cnico S.A.C.</p>
         </div>
     </footer>
+    <div class="modal fade" id="ModalDetalle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="mdl-card">
+                    <div class="mdl-card__title">
+                        <img src="img/jennifer_hernandez.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <h2>Jennifer Hernandez</h2>
+                        <p>Jennifer has a Bachelor’s degree in Marketing and a Master’s Degree in Advertising from Nebrija in Madrid, Spain. </p>
+                    </div>
+                    <div class="mdl-card__actions">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" data-dismiss="modal"><i class="fa fa-times"></i>Cerrar</button>
+                    </div>
+                </div>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-js-button mdl-button--icon" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>
@@ -292,6 +325,7 @@
     <script src="<?php echo RUTA_PLUGINS?>owl-carousel/owl.carousel.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>typedjs/typed.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>js-scroll-flow.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsmenu.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
