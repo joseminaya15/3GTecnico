@@ -21,9 +21,10 @@
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>owl-carousel/owl.carousel.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>font-awesome.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>iconos.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>metricweb.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>chat.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
 <body>
@@ -64,7 +65,7 @@
             <h2><span class="first"></span><span class="second"></span></h2>
             <div class="js-redes js-white--color">
                 <div class="js-call">
-                    <a href="+12764676">Call Center : +01 276-4676</a>
+                    <a href="tel:012764676">Call Center : +01 276-4676</a>
                 </div>
                 <div class="js-whatsapp">
                     <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><i class="fa fa-whatsapp"></i>939896933</a>
@@ -73,6 +74,27 @@
             </div>
         </div>
     </section>
+    <div class="bar-chat">
+        <div class="icons-center">
+            <button id="chat" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                <i class="icon-facebook-messenger3"></i>
+            </button>                                                                       
+        </div>                               
+    </div>
+    <div id="fb-root"></div>       
+    <div class="coolChat">
+        <div class="contenedorA">
+            <div class="active_pluginBtn">
+                <span class="inicA">Chatea con nosotros</span>
+            </div>
+            <div class="robePlugin">    
+                <div class="fb-page" data-href="https://www.facebook.com/3gtecnico-225429294795629/" data-tabs="messages" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/3gtecnico-225429294795629/"><a href="https://www.facebook.com/3gtecnico-225429294795629/"></a></blockquote></div></div>
+            </div>
+        </div>
+        <button id="chat-close" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+            <i class="mdi mdi-close"></i>
+        </button>
+    </div>
     <section id="nosotros" class="js-section">
         <div class="js-container">
             <h2 class="js-title scrollflow -pop -opacity">Nosotros</h2>
@@ -204,7 +226,7 @@
                                 </div>
                                 <div class="js-flex">
                                     <i class="mdi mdi-call"></i>
-                                    <a href="tel:+12764676">+01 276-4676</a>
+                                    <a href="tel:012764676">+01 276-4676</a>
                                 </div>
                             </div>
                         </div>
@@ -229,7 +251,7 @@
                                 </div>
                                 <div class="js-flex">
                                     <i class="mdi mdi-call"></i>
-                                    <a href="tel:+12764676">+01 276-4676</a>
+                                    <a href="tel:012764676">+01 276-4676</a>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +276,7 @@
                                 </div>
                                 <div class="js-flex">
                                     <i class="mdi mdi-call"></i>
-                                    <a href="tel:+12764676">+01 276-4676</a>
+                                    <a href="tel:012764676">+01 276-4676</a>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +300,7 @@
                         <p></p>
                         <div class="js-redes">
                             <div class="js-call">
-                                <a href="+12764676">Call Center : +01 276-4676</a>
+                                <a href="tel:012764676">Call Center : +01 276-4676</a>
                             </div>
                             <div class="js-whatsapp">
                                 <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><i class="fa fa-whatsapp"></i>939896933</a>
@@ -337,6 +359,13 @@
 
                 },
             });
+        });
+        $('#chat').on('click',function(e){
+            e.stopPropagation();
+            $('body').toggleClass('activeFix');
+        });
+        $('#chat-close').click(function(){
+            $('body').toggleClass('activeFix');
         });
     </script>
 </body>
