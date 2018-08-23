@@ -372,13 +372,6 @@
     <script src="<?php echo RUTA_JS?>js-scroll-flow.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-        initButtonCalendarDaysMinToday('llegada');
-        initButtonCalendarDaysMinToday('retorno');
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-            $('select').selectpicker('mobile');
-        } else {
-            $('select').selectpicker();
-        }
         $(function(){
             $("h2 .first").typed({
                 strings: ["Hola, hacemos servicio técnico de reparación y mantenimiento de"],             
