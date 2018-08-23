@@ -69,7 +69,7 @@
     </section>
     <section id="nosotros" class="js-section">
         <div class="js-container">
-            <h2 class="js-title">Nosotros</h2>
+            <h2 class="js-title scrollflow -pop -opacity">Nosotros</h2>
             <div class="js-information">
                 <div class="js-flex--start scrollflow -slide-right -opacity">
                     <div class="js-information__left">
@@ -96,7 +96,7 @@
     </section>
     <section id="espacios" class="js-section js-white">
         <div class="js-container">
-            <h2 class="js-title">Nuestros Servicios</h2>
+            <h2 class="js-title scrollflow -pop -opacity">Nuestros Servicios</h2>
             <div class="js-servicios">
                 <div id="lavadora" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
                     <div class="mdl-card__title">
@@ -104,6 +104,9 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Lavadoras</h2>
+                    </div>
+                    <div class="js-modal" style="display: none;">
+                        
                     </div>
                 </div>
                 <div id="secadora" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
@@ -113,6 +116,9 @@
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Secadoras</h2>
                     </div>
+                    <div class="js-modal" style="display: none;">
+                        
+                    </div>
                 </div>
                 <div id="cocina" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
                     <div class="mdl-card__title">
@@ -120,6 +126,9 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Cocinas</h2>
+                    </div>
+                    <div class="js-modal" style="display: none;">
+                        
                     </div>
                 </div>
                 <div id="refrigeradora" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
@@ -129,6 +138,9 @@
                     <div class="mdl-card__supporting-text">
                         <h2>Reparaci&oacute;n de Refrigeradoras</h2>
                     </div>
+                    <div class="js-modal" style="display: none;">
+                        
+                    </div>
                 </div>
                 <div id="aire" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
                     <div class="mdl-card__title">
@@ -136,6 +148,9 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         <h2>Servicio de Aire Acondicionado</h2>
+                    </div>
+                    <div class="js-modal" style="display: none;">
+                        
                     </div>
                 </div>
                 <div id="electrico" class="mdl-card scrollflow -slide-bottom -opacity" onclick="openModal(this.id)">
@@ -145,60 +160,8 @@
                     <div class="mdl-card__supporting-text">
                         <h2>Servicios El&eacute;ctricos</h2>
                     </div>
-                </div>
-            </div>
-            <div class="js-subtitle">
-                <h3>Espacio Secundario</h3>
-            </div>
-            <div class="js-espacio--secundario">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="mdl-card">
-                            <div class="mdl-card__title secundario1"></div>
-                            <div class="mdl-card__supporting-text">
-                                <h2>Deal Room</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="mdl-card">
-                            <div class="mdl-card__title secundario2"></div>
-                            <div class="mdl-card__supporting-text">
-                                <h2>Waiting Room</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="mdl-card">
-                            <div class="mdl-card__title secundario3"></div>
-                            <div class="mdl-card__supporting-text">
-                                <h2>Cowork Arqu / D.G KREA</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="mdl-card">
-                            <div class="mdl-card__title secundario4"></div>
-                            <div class="mdl-card__supporting-text">
-                                <h2>Cowork Arqu / D.G KREA</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="mdl-card">
-                            <div class="mdl-card__title secundario5"></div>
-                            <div class="mdl-card__supporting-text">
-                                <h2>SS.HH Discapacitados</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="mdl-card">
-                            <div class="mdl-card__title secundario6"></div>
-                            <div class="mdl-card__supporting-text">
-                                <h2>Zona de Lectura KREA</h2>
-                            </div>
-                        </div>
+                    <div class="js-modal" style="display: none;">
+                        
                     </div>
                 </div>
             </div>
@@ -206,7 +169,7 @@
     </section>
     <section id="contactanos" class="js-section">
         <div class="js-container">
-            <h2 class="js-title">Cont&aacute;ctanos</h2>
+            <h2 class="js-title scrollflow -pop -opacity">Cont&aacute;ctanos</h2>
             <div class="js-carousel">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
