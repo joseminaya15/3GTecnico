@@ -11,7 +11,7 @@
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
 	<title>3GT&eacute;cnico | Reparaci&oacute;n y Mantenimiento de Linea Blanca</title>
-    <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.jpg">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
