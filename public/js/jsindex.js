@@ -71,13 +71,29 @@ $('.js-carousel .owl-carousel').owlCarousel({
 	responsive: {
 		0: {
 			items: 1
+		},
+		768:{
+			items: 2
 		}
 	},
 	navigation: false,
 	nav: true,
-	loop: false,
+	loop: true,
 	dots: false,
 	autoplay: true,
-	autoplayTimeout: 5000,
+	autoplayTimeout: 3000,
 	navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
 });
+function openModal(id){
+    var modal   = $('#ModalDetalle');
+    var id      = $('#'+id);
+    var img     = id.find('.js-modal').find('img');
+    var title   = id.find('.js-modal').find('h2');
+    var content = id.find('.js-modal').find('p');
+    var imagen  = id.find('.mdl-card__title').html();
+    console.log(imagen);
+    modal.find('.mdl-card__title').html(imagen);
+    modal.find('.mdl-card__supporting-text').find('h2').text(title[0].innerText);
+    modal.find('.mdl-card__supporting-text').find('p').text(content[0].innerText);
+    modal.modal('toggle');
+}

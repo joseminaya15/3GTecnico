@@ -454,16 +454,19 @@ footer
 		margin 5px 0
 .js-contactanos
 	flexStart()
+	box-shadow 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+	background-color #FFFFFF
+	margin 20px
 	.js-contactanos--left
 		width 100%
-		max-width 500px
+		max-width 300px
 	.js-contactanos--right
 		flexStart()
 		padding 20px
 		justify-content flex-start
 		flex-direction column
 		width 100%
-		max-width calc(100% - 500px)
+		max-width calc(100% - 300px)
 		.js-flex
 			margin 10px
 			i
@@ -519,6 +522,31 @@ footer
 				h2
 					background-color #007DC5
 					color #FFFFFF
+.js-redes
+	border 1px solid #000000
+	margin 20px auto
+	max-width 350px
+	width 100%
+	&.js-white--color
+		border 1px solid #FFFFFF
+		.js-whatsapp
+		.js-call
+			a
+				color #FFFFFF !important
+	.js-whatsapp
+	.js-call
+		text-align center
+		a
+			color #000000 !important
+			text-decoration none
+			font-size 26px
+			line-height 28px
+			display block
+			margin 10px 0
+			i
+				color #0DC143
+				font-size 30px
+				margin-right 10px	
 /*MATERIAL DESIGN*/
 .mdl-card
 .mdl-card__supporting-text
@@ -532,30 +560,61 @@ footer
 /*MODAL*/
 .modal
 	&.fade
+		padding 0 !important
 		.modal-dialog
-			transform translate(-50% , -50%)
-			position absolute
-			top 50%
-			left 50%
-			.mdl-card__actions
-				padding 16px
-				button
-					margin 0 5px
-					text-transform initial
-					font-family $bold
-					&.js-button
-						background-color $default !important
-						text-decoration none !important
-						font-size 16px
-						color #FFFFFF !important
-						border 2px solid $default
-						width initial
+			width 100%
+			padding 0
+			margin 0
+			border-radius 0
+			.mdl-card
+				width 100%
+				max-width 650px
+				margin auto
+				margin-top 40px
+				.mdl-card__title
+					display block
+					.js-principal
+						relative()
+						background-size cover !important
+						height 250px
+						&.principal1
+							background url(../img/espacios/lavadoras.png) no-repeat center center
+						&.principal2
+							background url(../img/espacios/secadoras.jpg) no-repeat center center
+						&.principal3
+							background url(../img/espacios/cocinas.jpg) no-repeat center center
+						&.principal4
+							background url(../img/espacios/refrigeradoras.jpg) no-repeat center center
+						&.principal5
+							background url(../img/espacios/aire.jpg) no-repeat center center
+						&.principal6
+							background url(../img/espacios/electricidad.jpg) no-repeat center center
+				.mdl-card__supporting-text
+					h2
 						font-family $bold
-		&.in
-			.modal-dialog
-				transform translate(1)
-				transform transform(-50% , -50%)
-				opacity 1
+						font-size 36px
+						line-height 36px
+						margin 15px 0
+					p
+						font-size 20px
+						line-height 20px
+				.mdl-card__actions
+					padding 16px
+					button
+						margin 0 5px
+						text-transform initial
+						font-family $bold
+						&.js-button
+							background-color $default !important
+							text-decoration none !important
+							font-size 18px
+							line-height 18px
+							color #FFFFFF !important
+							border 2px solid $default
+							width initial
+							font-family $bold
+						i
+							margin-right 10px
 /*TABLE*/
 table
 	&>tbody
