@@ -328,7 +328,14 @@
     </section>
     <footer class="js-section">
         <div class="js-container text-center">
-            <p>&copy;Copyright 2018 3GT&eacute;cnico S.A.C.</p>
+            <div class="js-flex">
+                <div class="js-flex__left">
+                    <p>&copy;Copyright 2018 3GT&eacute;cnico S.A.C.</p>
+                </div>
+                <div class="js-flex__right">
+                    <a href="https://www.behance.net/joseminayaab0d" target="_blank">Design by J Minaya</a>
+                </div>
+            </div>
         </div>
     </footer>
     <div class="modal fade" id="ModalDetalle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

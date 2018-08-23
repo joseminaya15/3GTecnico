@@ -133,6 +133,16 @@ strong
 .js-flex
 	flexCenter()
 	justify-content center
+	.js-flex__left
+		flexCenter()
+		justify-content center
+		width 100%
+		text-align left
+	.js-flex__right
+		flexCenter()
+		justify-content center
+		width 100%
+		text-align right
 .js-flex--start
 	flexStart()
 	justify-content center
@@ -354,7 +364,13 @@ footer
 	background-color #000000
 	color #FFFFFF
 	p
-		font-size 14px
+		font-size 16px
+		line-height 20px
+	a
+		font-size 16px
+		font-family $bold
+		text-decoration none
+		color $default !important
 .navbar-default
 	transitionAll()
 	margin 0
