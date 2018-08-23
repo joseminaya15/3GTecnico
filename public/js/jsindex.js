@@ -103,8 +103,6 @@ function openModal(id){
     modal.find('.mdl-card__supporting-text').find('p').text(content[0].innerText);
     modal.modal('toggle');
 }
-
-/* SCRIPT DE CHAT FACEBOOK */
 (function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
 	if (d.getElementById(id))
