@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="js-contenido">
-            <h2><span class="first"></span><span class="second"></span></h2>
+            <h1><span class="first"></span><span class="second"></span></h1>
             <div class="js-redes js-white--color">
                 <div class="js-call">
                     <a href="tel:012764676">Call Center : +01 276-4676</a>
@@ -376,7 +376,7 @@
     <script type="text/javascript" src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
         $(function(){
-            $("h2 .first").typed({
+            $("h1 .first").typed({
                 strings: ["Hola, hacemos servicio técnico de reparación y mantenimiento de"],             
                 typeSpeed: 80,              
                 backDelay: 1000,                                  
