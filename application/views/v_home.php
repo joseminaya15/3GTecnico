@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="js-contenido">
-            <h1><span class="first"></span><span class="second"></span></h1>
+            <h1>Hola, hacemos servicio técnico de reparación y mantenimiento de<span class="second"></span></h1>
             <div class="js-redes js-white--color">
                 <div class="js-call">
                     <a href="tel:012764676">Call Center : +01 276-4676</a>
@@ -77,20 +77,6 @@
                 <i class="icon-facebook-messenger3"></i>
             </button>                                                                       
         </div>                               
-    </div>
-    <div id="fb-root"></div>       
-    <div class="coolChat">
-        <div class="contenedorA">
-            <div class="active_pluginBtn">
-                <span class="inicA">Chatea con nosotros</span>
-            </div>
-            <div class="robePlugin">    
-                <div class="fb-page" data-href="https://www.facebook.com/3gtecnico-225429294795629/" data-tabs="messages" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/3gtecnico-225429294795629/"><a href="https://www.facebook.com/3gtecnico-225429294795629/"></a></blockquote></div></div>
-            </div>
-        </div>
-        <button id="chat-close" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
-            <i class="mdi mdi-close"></i>
-        </button>
     </div>
     <section id="nosotros" class="js-section">
         <div class="js-container">
@@ -376,31 +362,13 @@
     <script type="text/javascript" src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
         $(function(){
-            $("h1 .first").typed({
-                strings: ["Hola, hacemos servicio técnico de reparación y mantenimiento de"],             
-                typeSpeed: 80,              
-                backDelay: 1000,                                  
-                showCursor: false,               
-                cursorChar: "|",                            
-                contentType: 'html',       
-                callback: function() {
-                    $("span.second").typed({
-                        strings: [" lavadoras.", " refrigeradoras."," secadoras."," cocinas."],
-                        backDelay: 500,    
-                        typeSpeed: 80,
-                        backSpeed: 0,
-                        loop: true,
-                    });
-
-                },
+            $("span.second").typed({
+                strings: [" lavadoras.", " refrigeradoras."," secadoras."," cocinas."],
+                backDelay: 500,    
+                typeSpeed: 80,
+                backSpeed: 0,
+                loop: true
             });
-        });
-        $('#chat').on('click',function(e){
-            e.stopPropagation();
-            $('body').toggleClass('activeFix');
-        });
-        $('#chat-close').click(function(){
-            $('body').toggleClass('activeFix');
         });
     </script>
 </body>
