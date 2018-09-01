@@ -21,7 +21,6 @@
     <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_FONTS?>iconos.css?v=<?php echo time();?>">
     <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_FONTS?>metricweb.css?v=<?php echo time();?>">
     <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-    <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_CSS?>chat.css?v=<?php echo time();?>">
     <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_CSS?>style.css?v=<?php echo time();?>">
 </head>
 <body>
@@ -65,19 +64,13 @@
                     <a href="tel:012764676">Call Center : +01 276-4676</a>
                 </div>
                 <div class="js-whatsapp">
-                    <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><i class="fa fa-whatsapp"></i>939896933</a>
-                    <a href="https://api.whatsapp.com/send?phone=51979322697&amp;text=Hola" target="blank"><i class="fa fa-whatsapp"></i>979322697</a>
+                    <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento">939896933</a>
+                    <a href="https://api.whatsapp.com/send?phone=51979322697&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento">979322697</a>
                 </div>
             </div>
         </div>
     </section>
-    <div class="bar-chat">
-        <div class="icons-center">
-            <button id="chat" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-                <i class="icon-facebook-messenger3"></i>
-            </button>                                                                       
-        </div>                               
-    </div>
+    <a id="chat" href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento"></a>
     <section id="nosotros" class="js-section">
         <div class="js-container">
             <h2 class="js-title scrollflow -pop -opacity">Nosotros</h2>
