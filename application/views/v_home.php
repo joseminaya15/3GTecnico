@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="js-contenido">
-            <h1>Hola, hacemos servicio técnico de reparación y mantenimiento de<span class="second"></span></h1>
+            <h1>Servicio T&eacute;cnico a domicilio de L&iacute;nea Blanca. Lima y Callao</h1>
             <div class="js-redes js-white--color">
                 <div class="js-call">
                     <a href="tel:012764676">Call Center : +01 276-4676</a>
@@ -71,6 +71,50 @@
         </div>
     </section>
     <a id="chat" href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento"></a>
+    <div class="js-marcas">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/samsung.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/mabe.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/bosch.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/lg.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/maytag.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/klimatic.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/frigidaire.png" alt="3gtecnico">
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-marcas__item">
+                    <img src="<?php echo RUTA_IMG?>logo/generalelectric.png" alt="3gtecnico">
+                </div>
+            </div>
+        </div>
+    </div>
     <section id="nosotros" class="js-section">
         <div class="js-container">
             <h2 class="js-title scrollflow -pop -opacity">Nosotros</h2>
@@ -330,8 +374,8 @@
                                 <a href="tel:012764676">Call Center : +01 276-4676</a>
                             </div>
                             <div class="js-whatsapp">
-                                <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><i class="fa fa-whatsapp"></i>939896933</a>
-                                <a href="https://api.whatsapp.com/send?phone=51979322697&amp;text=Hola" target="blank"><i class="fa fa-whatsapp"></i>979322697</a>
+                                <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento">939896933</a>
+                                <a href="https://api.whatsapp.com/send?phone=51979322697&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento">979322697</a>
                             </div>
                         </div>
                     </div>
@@ -350,19 +394,7 @@
     <script type="text/javascript" src="<?php echo RUTA_PLUGINS?>bootstrap/js/bootstrap.min.js?v=<?php echo time();?>"></script>
     <script type="text/javascript" src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script type="text/javascript" src="<?php echo RUTA_PLUGINS?>owl-carousel/owl.carousel.min.js?v=<?php echo time();?>"></script>
-    <script type="text/javascript" src="<?php echo RUTA_PLUGINS?>typedjs/typed.js?v=<?php echo time();?>"></script>
     <script type="text/javascript" src="<?php echo RUTA_JS?>js-scroll-flow.js?v=<?php echo time();?>"></script>
     <script type="text/javascript" src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
-    <script type="text/javascript">
-        $(function(){
-            $("span.second").typed({
-                strings: [" lavadoras.", " refrigeradoras."," secadoras."," cocinas."],
-                backDelay: 500,    
-                typeSpeed: 80,
-                backSpeed: 0,
-                loop: true
-            });
-        });
-    </script>
 </body>
 </html>
