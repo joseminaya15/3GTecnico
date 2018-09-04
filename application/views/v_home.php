@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="description"            content="3GTécnico es una empresa autorizada para trabajar las marcas en linea blanca, profesionales especializados garantizan que el electrodoméstico reciba a tiempo un servicio eficiente y profesional. Realizamos mantenimientos preventivos, reparación y/o cambios con repuestos 100% originales en marcas europeas, americanas y nacionales de lavadoras, lavasecas, refrigeradoras, centro de lavado, secadoras a gas y electricas, cocinas, microondas, lavavajillas, campana extractoras del hogar e industriales.">
-    <meta name="keywords"               content="Servicio Técnico, Reparación Línea Blanca, Asistencia técnica, Reparación de cocinas, Reparación de lavadoras, Reparación de secadoras, Reparación de refrigeradoras, Mantenimiento de cocinas, Mantenimiento de lavadoras, Mantenimiento de secadoras, Mantenimiento de refrigeradoras, Servicio técnico bosh, Servicio técnico indurama, Servicio técnico samsung, Reparación de aire acondicionado, Servicio eléctrico, Servicio técnico electrodomésticos">
+    <meta name="keywords"               content="Reparación y Mantenimiento de Linea Blanca, Servicio Técnico, Reparación Línea Blanca, Asistencia técnica, Reparación de cocinas, Reparación de lavadoras, Reparación de secadoras, Reparación de refrigeradoras, Mantenimiento de cocinas, Mantenimiento de lavadoras, Mantenimiento de secadoras, Mantenimiento de refrigeradoras, Servicio técnico bosh, Servicio técnico indurama, Servicio técnico samsung, Reparación de aire acondicionado, Servicio eléctrico, Servicio técnico electrodomésticos">
     <meta name="robots"                 content="Index,Follow">
     <meta name="date"                   content="August 22, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>3GT&eacute;cnico | Reparaci&oacute;n y Mantenimiento de Linea Blanca</title>
+	<title>Reparaci&oacute;n y Mantenimiento de Linea Blanca - 3GT&eacute;cnico</title>
     <link rel="shortcut icon" type="text/css" href="<?php echo RUTA_IMG?>logo/favicon.jpg">
     <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    type="text/css" href="<?php echo RUTA_PLUGINS?>bootstrap/css/bootstrap.min.css?v=<?php echo time();?>">
@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand link" href="#home"><img src="<?php echo RUTA_IMG?>logo/logo.png" alt=""></a>
+                <a class="navbar-brand link" href="#home"><img src="<?php echo RUTA_IMG?>logo/logo.png" alt="Reparación y Mantenimiento de Linea Blanca"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -64,53 +64,53 @@
                     <a href="tel:012764676">Call Center : +01 276-4676</a>
                 </div>
                 <div class="js-whatsapp">
-                    <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento">939896933</a>
-                    <a href="https://api.whatsapp.com/send?phone=51979322697&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento">979322697</a>
+                    <a href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparación y Mantenimiento de Linea Blanca">939896933</a>
+                    <a href="https://api.whatsapp.com/send?phone=51979322697&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparación y Mantenimiento de Linea Blanca">979322697</a>
                 </div>
             </div>
         </div>
     </section>
-    <a id="chat" href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparacion y Mantenimiento"></a>
+    <a id="chat" href="https://api.whatsapp.com/send?phone=51939896933&amp;text=Hola" target="blank"><img src="<?php echo RUTA_IMG?>logo/whatsapp.png" alt="Reparación y Mantenimiento de Linea Blanca"></a>
     <div class="js-marcas">
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/samsung.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/samsung.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/mabe.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/mabe.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/bosch.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/bosch.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/lg.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/lg.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/maytag.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/maytag.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/klimatic.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/klimatic.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/frigidaire.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/frigidaire.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
             <div class="item">
                 <div class="js-marcas__item">
-                    <img src="<?php echo RUTA_IMG?>logo/generalelectric.png" alt="3gtecnico">
+                    <img src="<?php echo RUTA_IMG?>logo/generalelectric.png" alt="Reparación y Mantenimiento de Linea Blanca">
                 </div>
             </div>
         </div>
@@ -223,42 +223,42 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/samsung.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/samsung.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/mabe.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/mabe.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/bosch.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/bosch.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/lg.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/lg.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/maytag.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/maytag.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/klimatic.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/klimatic.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/frigidaire.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/frigidaire.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                     <div class="item">
                         <div class="js-marcas__item">
-                            <img src="<?php echo RUTA_IMG?>logo/generalelectric.png" alt="3gtecnico">
+                            <img src="<?php echo RUTA_IMG?>logo/generalelectric.png" alt="Reparación y Mantenimiento de Linea Blanca">
                         </div>
                     </div>
                 </div>
